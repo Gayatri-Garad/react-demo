@@ -3,6 +3,10 @@ import React from "react";
 const Employee = (props) => {
   const { name, city } = props;
 
+  function test() {
+    console.log("testing");
+  }
+
   return (
     <>
       <h1>Employee Detalis</h1>
